@@ -229,12 +229,6 @@ p {
 }
 
 .feynman__link {
-  display: flex;
-  position: absolute;
-  margin-right: 48px;
-}
-
-.feynman__link {
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
