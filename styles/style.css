@@ -9,16 +9,6 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.text-no-margin {
-  margin: 0;
-}
-
 .logo {
   width: 183px;
 }
@@ -42,24 +32,26 @@
 }
 
 .header__title {
+  margin: 0 0 0 64px;
   width: 730px;
   font-size: 102px;
   line-height: 96px;
   font-weight: 700;
   display: flex;
   align-self: center;
-  margin-left: 64px;
+  z-index: 2;
 }
 
 .header__subtitle {
+  margin: 0;
   font-size: 18px;
   line-height: 25px;
   width: 388px;
   font-weight: 400;
-
   position: absolute;
   bottom: 30px;
   left: 64px;
+  z-index: 2;
 }
 
 .header__link {
@@ -104,6 +96,7 @@
 
 .two-columns__brief {
   width: 175px;
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400;
@@ -119,6 +112,7 @@
 }
 
 .two-columns__paragraph {
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: 400;
@@ -151,10 +145,11 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 700;
+  margin: 0;
 }
 
 .section-subtitle {
-  margin-top: 20px;
+  margin: 20px 0 0 0;
   width: 60%;
   display: flex;
   justify-content: center;
@@ -170,6 +165,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .table__cell {
@@ -179,12 +177,14 @@
 }
 
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
 }
 
 .table__text {
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   padding-top: 20px;
@@ -207,6 +207,7 @@
 }
 
 .feynman__title {
+  margin: 0;
   width: 648px;
   text-align: center;
   line-height: 1.15;
@@ -215,7 +216,7 @@
 }
 
 .feynman__subtitle {
-  margin-top: 70px;
+  margin: 70px 0 0 0;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
@@ -258,7 +259,7 @@
   z-index: 1;
 }
 
-.kaufman__tiangle-pic {
+.kaufman__tiangle {
   width: 877px;
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
@@ -282,8 +283,7 @@
   justify-content: center;
   box-sizing: border-box;
   min-height: 350px;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding: 60px 0 40px 0;
   background-color: #1f1f1f;
 }
 
@@ -306,13 +306,14 @@
 }
 
 .footer__author {
+  margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
-  margin: 18px 0;
 }
 
 .footer__column-heading {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 700;
@@ -330,7 +331,9 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
+  list-style: none;
   margin: 20px 0 16px 0;
+  padding: 0;
 }
 
 .footer__column-link {
