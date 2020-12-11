@@ -13,12 +13,12 @@
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
-@import url(../blocks/hedaer/header.css);
-@import url(../blocks/hedaer/__title/header__title.css);
-@import url(../blocks/hedaer/__subtitle/header__subtitle.css);
-@import url(../blocks/hedaer/__link/header__link.css);
-@import url(../blocks/hedaer/__main-illustration/header__main-illustration.css);
-@import url(../blocks/hedaer/__square-pic/header__square-pic.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/__square-pic/header__square-pic.css);
 
 @import url(../blocks/description/description.css);
 

@@ -1,5 +1,6 @@
 .two-columns__brief {
-  width: 175px;
+  max-width: 175px;
+  align-self: flex-start;
   margin: 0;
   line-height: 1.2;
   font-size: 18px;
