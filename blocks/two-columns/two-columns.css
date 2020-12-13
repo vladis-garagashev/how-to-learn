@@ -1,5 +1,5 @@
 .two-columns {
-  max-width: 80%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
 }
